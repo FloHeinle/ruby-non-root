@@ -7,6 +7,7 @@ RUN apk add --update --no-cache \
   nodejs \
   postgresql-client \
   postgresql-dev \
+  tzdata \
   yarn \
   && adduser --disabled-password --home '/app' app;
 
